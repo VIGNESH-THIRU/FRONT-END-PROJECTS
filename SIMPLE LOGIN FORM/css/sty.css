@@ -1,0 +1,46 @@
+.at{
+    display: grid;
+    justify-content: center;
+    
+}
+body{
+    background: url("C:/Users/User/Documents/htmlcss pro/image/image1.jpg");
+}
+.fl div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    border: 4px solid black;
+    width: 290px;
+    height: 370px;
+    padding: 30px;
+    font-size: 20px;
+    background: linear-gradient(blue,green); 
+    border-radius: 20px;
+    margin: 200px;
+    text-transform: uppercase;
+    animation-name: square;
+    animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+@keyframes square{
+    100%{
+        background: linear-gradient(brown,purple);
+    }
+}
+.in{
+    padding: 5px;
+}
+.ut:focus{
+    background-color: rgb(127, 178, 255);
+}    
+.out{
+    position: relative;
+    top: 0px;
+    margin: 15px 100px 15px;
+    font-size: 20px;
+    width: 70px;
+    height: 40px;
+}

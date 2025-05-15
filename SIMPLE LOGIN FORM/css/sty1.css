@@ -1,0 +1,62 @@
+body{
+    background-image: url("C:/Users/User/Documents/htmlcss pro/image/image3.jpg");
+}
+.full{
+    display: grid;
+    justify-self: 20px 20px 20px;
+
+}
+.in{ 
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    background:linear-gradient(violet,greenyellow);
+    border-radius: 10px;
+    height: 100px;
+}
+.out{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    border: 4px;
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: aquamarine;
+
+}
+.b1{
+    display: inline;
+    border: 1px;
+    text-transform: capitalize;
+    font-size: x-large;
+    justify-content: right;
+
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    background:linear-gradient(pink,aqua);
+    height: 580px;
+    align-items: center;
+}
+.br{
+    border: 2px solid black;
+    width: 450px;
+    height: 190px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: larger;
+    text-transform: uppercase;
+}
+.br1{
+    margin: 40px;
+}
+
+
